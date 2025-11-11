@@ -1,0 +1,32 @@
+{
+  "dataset":"AAV&GFP",
+  "benchmark":"GFP",
+  
+  "seed": 2025,
+  "batch_size": 32,
+  "epochs_dpo":2,
+  "beta": 0.5,
+  "lr": 5e-6,
+  "iteration_epoch":3,
+  "iteration_sample_num":2560,
+
+  "sample_num":128,
+  "sampling_temp":0.7,
+
+  "ESM_pretrain_model":"esm2_t12_35M_UR50D",
+  "SaProt_pretrain_model":"./config/saprot_weights/SaProt_35M_AF2",
+  
+  "pdb_path":"./data/GFP_AAV_data/AlphaFold_model_PDBs/",
+  "data_path":"./data/GFP_AAV_data/processed_data/Hard/GFP/",
+  "groundtruth_data_path":"./data/GFP_AAV_data/data/GFP/ground_truth.csv",
+  "GGS_oracle_path":"./config/GFP/",
+  "ckpt_path": "./config/ProteinMPNN_vanilla_model_weights/v_48_020.pt",
+
+  "ca_only": false,
+  "hidden_dim": 128,
+  "num_layers": 3,
+  "backbone_noise": 0.0,
+  "num_edges": 48,
+  "weight_decay": 1e-4
+
+}

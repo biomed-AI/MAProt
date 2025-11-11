@@ -1,0 +1,34 @@
+{
+  "dataset":"AbDesign",
+  "benchmark":"AbDesign",
+  
+
+  "seed": 2025,
+  "batch_size": 18,
+  "epochs_dpo":2,
+  "beta": 0.5,
+  "lr": 5e-6,
+  "iteration_epoch":1,
+  "iteration_sample_num":256,
+
+
+  "sample_num":128,
+  "sampling_temp":0.1,
+
+  "ESM_pretrain_model":"esm2_t12_35M_UR50D",
+  "SaProt_pretrain_model":"./config/saprot_weights/SaProt_35M_AF2",
+  
+  "pdb_path":"./data/AbDesign/AlphaFold_model_PDBs/",
+  "data_path":"./data/AbDesign/processed_data/",
+  
+  "reward_model_path":"./config/affinity_model/model.ckpt",
+  "ckpt_path": "./config/ProteinMPNN_vanilla_model_weights/v_48_020.pt",
+  
+  "ca_only": false,
+  "hidden_dim": 128,
+  "num_layers": 3,
+  "backbone_noise": 0.0,
+  "num_edges": 48,
+  "weight_decay": 1e-4
+
+}

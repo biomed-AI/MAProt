@@ -1,0 +1,32 @@
+{
+  "dataset":"megascale",
+  "benchmark":"megascale",  
+
+  "seed": 2025,
+  "batch_size": 32,
+  "epochs_dpo":6,
+  "beta": 0.5,
+  "lr": 5e-6,
+  "iteration_epoch":1,
+  "iteration_sample_num":1280,
+
+  "sample_num":640,
+  "sampling_temp":0.1,
+
+  "ESM_pretrain_model":"esm2_t30_150M_UR50D",
+  "SaProt_pretrain_model":"./config/saprot_weights/SaProt_35M_AF2",
+  
+  "pdb_path":"./data/Megascale_data/AlphaFold_model_PDBs/",
+  "data_path":"./data/Megascale_data/processed_data/",
+
+  "reward_model_path":"./config/DRKES_oracle_ckpt/reward_oracle_eval.pt",
+  "ckpt_path": "./config/ProteinMPNN_vanilla_model_weights/v_48_020.pt",
+  
+  "ca_only": false,
+  "hidden_dim": 128,
+  "num_layers": 3,
+  "backbone_noise": 0.0,
+  "num_edges": 48,
+  "weight_decay": 1e-4
+
+}
