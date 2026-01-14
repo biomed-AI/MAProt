@@ -5,6 +5,21 @@ In the following sections, you'll find detailed instructions on how to set up th
 
 ![overview of MAProt](./figure/model_overview_tight.png)
 
+Citation:
+```bibtex
+<!-- @article{10.1093/bib/bbab564,
+    author = {Yuan, Qianmu and Chen, Sheng and Rao, Jiahua and Zheng, Shuangjia and Zhao, Huiying and Yang, Yuedong},
+    title = "{AlphaFold2-aware protein–DNA binding site prediction using graph transformer}",
+    journal = {Briefings in Bioinformatics},
+    volume = {23},
+    number = {2},
+    year = {2022},
+    month = {01},
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbab564},
+    url = {https://doi.org/10.1093/bib/bbab564},
+} -->
+```
 ## Environment Installation
 
 Open your terminal or command prompt. Create a new conda environment:
