@@ -7,7 +7,13 @@ In the following sections, you'll find detailed instructions on how to set up th
 
 Citation:
 ```bibtex
-
+@article{zhu2026advancing,
+  title = {Advancing Protein Design via Multi-Agent Reinforcement Learning with Pareto-Based Collaborative Optimization},
+  author = {Zhu, Mingming and Rao, Jiahua and Chen, Xiaoyu and Yuan, Qianmu and Yang, Yuedong},
+  journal = {bioRxiv},
+  year = {2026},
+  url = {https://doi.org/10.64898/2026.01.13.699365}
+}
 ```
 ## Environment Installation
 
